@@ -1,0 +1,7 @@
+curl -X 'POST' \
+  'http://0.0.0.0:8000/predict/' \
+  -H 'Content-Type: application/json' \
+  -H 'X-API-KEY: 14102012' \
+  -d '{
+  "text": "Tell me a joke"
+}'
